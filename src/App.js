@@ -1,17 +1,20 @@
 import React from 'react';
-import Class1 from './Class1.js';
 const App = () => {
   return (
     <div>
-      <h1>Learn React</h1>
-      <label aria-label="content">Hello</label>
-      <input
-        type="text"
-        placeholder="Enter User Name"
-        data-testid="username"
-      />
-			<button name="btnsave">Save</button>
-			<Class1/>
+      <input type="text" placeholder="Enter User Name" />
+      <a href="httsp://google.com" data-testid="mylink">
+        Google
+      </a>
+      <p>Hello</p>
+      <span>Hello1</span>
+      <label>Hello2</label>
+      <div>Hello3</div>
+      <p>Hai</p>
+      <span>Hai</span>
+      <label>Hai</label>
+      <div>Hai</div>
+      <button>Save</button>
     </div>
   );
 };
